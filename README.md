@@ -1,1 +1,13 @@
-# React-Ecommerce
+# REACT-ECOMMERCE
+
+## USER SCHEMA
+
+
+## PRODUCT SCHEMA
+
+
+## ORDER SCHEMA
+
+
+
+## REVIEW SCHEMA
