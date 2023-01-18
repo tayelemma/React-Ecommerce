@@ -6,10 +6,11 @@
 * Presentation day: 01/27/2023
 
 ## Jan 17, 2023
-* Yesterday: Design the project overall specifications for user 
-  interface(all users), admin-panles(admin)
-  Additionly, Chose which framwork and styling to use. 
+* Yesterday: Design the project overall specifications for user interface(all users), admin panles(admin). Additionly, Chose React framwork and bootstrap styling to use. 
 * Today: 01/17/2023 at 10:15Am Discuss about the final project specifications. 
 * Block: N/A
 
-# Jan 18, 2023
+## Jan 18, 2023
+* Yesterday: Design the backend schemas and determine my front-end components and screens.
+* Today: Plan to create react-app and Plan work on backend and test the api end-point on postman.
+* Block: N/A 

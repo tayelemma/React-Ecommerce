@@ -1,13 +1,12 @@
 # REACT-ECOMMERCE
 
-## USER SCHEMA
+## User Schema
 
 
-## PRODUCT SCHEMA
+## Product Schema
 
 
-## ORDER SCHEMA
+## Order Schema
 
 
-
-## REVIEW SCHEMA
+## Review Schema
