@@ -32,4 +32,4 @@
 * Database: MongoDB
 * Style: Templates, React-bootstrap,  Unit Test
   
-## Deloyment: (Not decided which cloud service to use)
+## Deloyment: (Heroku)

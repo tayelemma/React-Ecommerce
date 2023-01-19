@@ -14,3 +14,11 @@
 * Yesterday: Design the backend schemas and determine my front-end components and screens.
 * Today: Plan to create react-app and Plan work on backend and test the api end-point on postman.
 * Block: N/A 
+
+
+## Jan 19, 2023
+* Yesterday: Finished Designing the backend schemas for Used, Product, Order and Review. Created 
+   User and Product API end point and test the API end point on postman. 
+* Today: Continue working on the backend. Specifically, work on the rest of the product API endpoint 
+  and Order API end point. 
+* Block: N/A 
