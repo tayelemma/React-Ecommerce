@@ -23,3 +23,13 @@ module.exports.authorize = async(req, res, next)=>{
     }
 }
 
+
+//Checking user if they are admin.
+module.exports.admin = (req, res, next) => {
+    if (req.user && req.user.isAdmin) {
+        next();
+    } else {
+        res.status(401);
+        throw new Error("Not authorized as an Admin.")
+    }
+}

@@ -19,8 +19,12 @@ const userSchema = mongoose.Schema(
             type: Boolean,
             require: true,
             default: false
+        },
+        role: {
+            type: String,
+            require: true,
+            default: "customer"
         }
-
     },
     {
         timestamps: true

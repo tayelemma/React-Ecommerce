@@ -1,4 +1,6 @@
 const cors = require("cors");
+const morgan = require("morgan");
+const dotenv = require("dotenv");
 const express = require("express");
 const mongoose = require("mongoose");
 const userRouter = require("./routers/userRouter");
@@ -8,7 +10,9 @@ const productRouter = require("./routers/productRouter");
 const { DB_URL } = require('./config.json');
 const app = express();
 
+dotenv.config();
 app.use(cors());
+app.use(morgan('dev'));
 app.use(express.json());
 
 //API
@@ -29,4 +33,4 @@ mongoose.set('strictQuery', false);
 mongoose.connect(DB_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true
-}).then(() => { app.listen(3000, () => console.log(`server running in port 5000....`)) })
+}).then(() => { app.listen(3000, () => console.log(`server running in port 3000....`)) })

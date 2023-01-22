@@ -5,6 +5,7 @@ const router = express.Router();
 
 router.post('/register', userController.signup);
 router.post('/login', userController.login);
+router.get('/', AuthMiddleware.authorize, AuthMiddleware.admin, userController.getAllAdminUser);
 router.get('/profile', AuthMiddleware.authorize, userController.getUserProfile);
 router.put('/profile', AuthMiddleware.authorize, userController.updateProfile);
 

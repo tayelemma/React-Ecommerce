@@ -67,6 +67,15 @@ module.exports.signup = async (req, res, next) => {
 };
 
 
+module.exports.getAllAdminUser = async (req, res, next) => {
+    try {
+        const users = await User.find({});
+        res.json(users);
+    } catch (error) {
+        console.log(error)
+    }
+}
+
 //Checked
 module.exports.getUserProfile = async (req, res, next) => {
     try {
