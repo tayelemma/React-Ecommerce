@@ -7,7 +7,7 @@ import ContactInfo from "../components/homeComponents/ContactInfo";
 import ShopSection from "./../components/homeComponents/ShopSelection";
 import CalltoActionSection from "./../components/homeComponents/CalltoActionSection";
 
-const HomeScreen = ({ match }) => {
+const HomeScreen = () => {
   window.scrollTo(0, 0);
 
   const location = useLocation();
